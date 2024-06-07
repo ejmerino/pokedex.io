@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin: 1rem 0;
+    color: #007bff;
+}
+
+input, select, button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#spinner {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+#pokemon, #filters, #advanced-filters, #pagination {
+    margin: 1rem 0;
+}
+
+#error-message {
+    color: red;
+}
+
+#pokemon-table {
+    width: 80%;
+    margin: 1rem 0;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#pokemon-table th, #pokemon-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#pokemon-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+#pokemon-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 0.5rem 0;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagination button {
+    margin: 0 0.5rem;
+}
