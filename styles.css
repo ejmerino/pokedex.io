@@ -1,50 +1,53 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f8f9fa;
+    background-color: #f2f2f2;
 }
 
 h1 {
     margin: 1rem 0;
-    color: #007bff;
+    color: #f44336;
 }
 
 input, select, button {
-    padding: 0.5rem;
+    padding: 0.7rem;
     margin: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
 }
 
 button {
-    background-color: #007bff;
+    background-color: #f44336;
     color: white;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #d32f2f;
 }
 
 #spinner {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 1rem 0;
+    color: #f44336;
+}
+
+#error-message {
+    color: #f44336;
 }
 
 #pokemon, #filters, #advanced-filters, #pagination {
     margin: 1rem 0;
 }
 
-#error-message {
-    color: red;
-}
-
 #pokemon-table {
-    width: 80%;
+    width: 90%;
     margin: 1rem 0;
     border-collapse: collapse;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -52,31 +55,44 @@ button:hover {
 
 #pokemon-table th, #pokemon-table td {
     border: 1px solid #ddd;
-    padding: 0.5rem;
+    padding: 0.7rem;
     text-align: center;
 }
 
 #pokemon-table th {
-    background-color: #007bff;
+    background-color: #f44336;
     color: white;
 }
 
 #pokemon-table tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
 img {
     width: 100px;
     height: 100px;
     margin: 0.5rem 0;
+    border-radius: 50%;
+    border: 2px solid #f44336;
 }
 
 #pagination {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
 #pagination button {
     margin: 0 0.5rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pagination button:hover {
+    background-color: #d32f2f;
 }
