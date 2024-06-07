@@ -4,7 +4,8 @@ Bienvenido a Pokedex, tu sitio web para buscar y descubrir información sobre di
 
 ## Descripción
 
-Pokedex es una aplicación web desarrollada como proyecto para el curso de Ingeniería de Software. Utiliza tecnologías web modernas como HTML, CSS, JavaScript y AJAX para interactuar con la API de Pokémon y proporcionar a los usuarios información detallada sobre los pokemones.
+Pokedex es una aplicación web desarrollada como proyecto para el curso de Ingeniería de Software. 
+Utiliza tecnologías web modernas como HTML, CSS, JavaScript y AJAX para interactuar con la API de Pokémon y proporcionar a los usuarios información detallada sobre los pokemones.
 
 ## Características
 
@@ -22,6 +23,6 @@ Pokedex es una aplicación web desarrollada como proyecto para el curso de Ingen
 
 Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros:
 
-- Marlyn Almeida - [marlyn@example.com](mailto:marlyn@example.com)
-- Erick Andrade - [erick@example.com](mailto:erick@example.com)
-- Josué Merino - [josue@example.com](mailto:josue@example.com)
+- Marlyn Almeida - [msalmeida3@espe.edu.ec](mailto:msalmeida3@espe.edu.ec)
+- Erick Andrade - [emandrade7@espe.edu.ec](mailto:emandrade7@espe.edu.ec)
+- Josué Merino - [ejmerino@espe.edu.ec](mailto:ejmerino@espe.edu.ec)
